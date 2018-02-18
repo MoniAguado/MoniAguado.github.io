@@ -1,0 +1,47 @@
+
+.portfolio__container {
+	display: grid;
+	grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+	grid-gap: 5%;
+}
+
+.urbanData {
+	grid-row: 2/3;
+}
+
+.Desvariables {
+	grid-row: 4/5;
+}
+
+.Federici {
+	grid-row: 6/7;
+}
+
+.Generatrix {
+	grid-row: 8/9;
+}
+
+@media all and (min-width: 619px){
+	.portfolio__container {
+		grid-template-columns: repeat(1fr, 1fr);
+		grid-template-rows: repeat(1fr, 1fr);
+	}
+	.urbanData {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+	.Desvariables {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.Federici {
+		grid-column: 1/2;
+		grid-row: 2/3;
+
+	}
+	.Generatrix {
+		grid-column: 2/3;
+		grid-row: 2/3
+}
+
+}

@@ -79,8 +79,8 @@
 	left: 0;
 	top: 0;
 	background-color: rgba(0, 0, 0, 0);
-	transition: transform ease .7s background ease .7s .5s;
-	transform: translateX(150%);
+	transition: transform ease 0.7s background ease .7s .7s;
+	transform: translateX(300%);
 	.menu-visible & {
 		transform: translateX(0%);
 		width: 100%;
