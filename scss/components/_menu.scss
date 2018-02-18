@@ -1,0 +1,89 @@
+
+.header__container {
+	position: relative;
+}
+
+.header__button {
+	background-image: url(../images/arrow-right-pink.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: $colorPink;
+	position: absolute;
+	width: $sizeBurger;
+	height: $sizeBurger;
+	border: 0;
+	left: 0;
+}
+
+.menu {
+	position: relative;
+	height: 100vh;
+	width: 250px;
+}
+
+.burger__container {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	margin: 0;
+}
+
+.close {
+	background-image: url(../images/arrow-left-grey.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: $colorPink;
+	position: absolute;
+	width: $sizeBurger;
+	height: $sizeBurger;
+	top: 0;
+	left: 100%;
+	border: 0;
+}
+
+.menu-list {
+	width: 250px;
+	height: 100vh;
+	background-color: $colorGrey;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 40px;
+	opacity: 1;
+	z-index: 1;
+}
+
+.option {
+	list-style: none;
+	text-align: left;
+	border-top: 1px solid rgba(255, 65, 89, 0.5);
+}
+
+.menu__contact {
+	border-bottom: 1px solid rgba(255, 65, 89, 0.5);
+}
+
+.option a {
+	text-decoration: none;
+	color: white;
+	font-size: 90%;
+	font-weight: 300;
+	display: block;
+	padding: 7%;
+}
+
+.close {
+	margin-right: 100%;
+}
+
+.burger {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0);
+	transition: transform ease .7s background ease .7s .5s;
+	transform: translateX(150%);
+	.menu-visible & {
+		transform: translateX(0%);
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.5)
+	}
+}

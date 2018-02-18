@@ -11,7 +11,6 @@
 		"gulp-notify": "*",
 		"gulp-plumber": "*",
 		"gulp-rename": "*",
-		"gulp-sass": "*",
 		"gulp-sourcemaps": "*",
 		"gulp-uglify": "*",
 		"gulp-util": "*",
@@ -19,7 +18,9 @@
 		"run-sequence": "*",
 		"gulp-zip": "*"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"gulp-sass": "^3.1.0"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
