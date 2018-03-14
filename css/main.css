@@ -35,10 +35,13 @@
   background-image: url(../images/arrow-down-grey.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
   width: 60px;
   height: 60px;
-  border-style: solid;
+  border-style: none;
   margin-top: 200px;
+  z-index: 100;
 }
 
 .section__contact {
@@ -82,11 +85,17 @@
   align-items: center;
 }
 
+.hero__title {
+  width: 100%;
+  margin-top: 100px;
+}
+
 .cover__logo {
-  background-image: url(../images/short-pink.png);
+  background-image: url(../images/logo-moni.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 150px;
+  width: 354px;
+  height: 143px;
 }
 
 .header__container {
@@ -94,7 +103,8 @@
 }
 
 .header__button {
-  background-image: url(../images/arrow-right-pink.svg);
+  background-image: url(../images/menu-square.svg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #FF4159;
@@ -103,6 +113,7 @@
   height: 40px;
   border: 0;
   left: 0;
+  padding: 5px;
 }
 
 .menu {
@@ -118,8 +129,9 @@
 }
 
 .close {
-  background-image: url(../images/arrow-left-grey.svg);
+  background-image: url(../images/cancel-music.svg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #FF4159;
   position: absolute;
@@ -173,8 +185,8 @@
   transition: -webkit-transform ease 0.7s background ease .7s .7s;
   transition: transform ease 0.7s background ease .7s .7s;
   transition: transform ease 0.7s background ease .7s .7s, -webkit-transform ease 0.7s background ease .7s .7s;
-  -webkit-transform: translateX(300%);
-  transform: translateX(300%);
+  -webkit-transform: translateX(1500%);
+  transform: translateX(1500%);
 }
 
 .menu-visible .burger {
@@ -200,7 +212,7 @@
 }
 
 .cover__title {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: #FF4159;
 }

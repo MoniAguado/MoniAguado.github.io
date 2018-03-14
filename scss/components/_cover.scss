@@ -16,10 +16,16 @@
 
 }
 
+.hero__title {
+	width: 100%;
+	margin-top: 100px;
+}
+
 .cover__logo {
-	background-image: url(../images/short-pink.png);
+	background-image: url(../images/logo-moni.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 150px;
+	width: 354px;
+	height: 143px;
 
 }

@@ -3,8 +3,11 @@
 	background-image: url(../images/arrow-down-grey.svg);
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
 	width: $sizeArrow;
 	height: $sizeArrow;
-	border-style: solid;
+	border-style: none;
 	margin-top: 200px;
+	z-index: 100;
 }

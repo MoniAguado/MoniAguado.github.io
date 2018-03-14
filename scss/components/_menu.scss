@@ -4,7 +4,8 @@
 }
 
 .header__button {
-	background-image: url(../images/arrow-right-pink.svg);
+	background-image: url(../images/menu-square.svg);
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: $colorPink;
@@ -13,6 +14,7 @@
 	height: $sizeBurger;
 	border: 0;
 	left: 0;
+	padding: 5px;
 }
 
 .menu {
@@ -28,8 +30,9 @@
 }
 
 .close {
-	background-image: url(../images/arrow-left-grey.svg);
+	background-image: url(../images/cancel-music.svg);
 	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: $colorPink;
 	position: absolute;
@@ -80,7 +83,7 @@
 	top: 0;
 	background-color: rgba(0, 0, 0, 0);
 	transition: transform ease 0.7s background ease .7s .7s;
-	transform: translateX(300%);
+	transform: translateX(1500%);
 	.menu-visible & {
 		transform: translateX(0%);
 		width: 100%;
